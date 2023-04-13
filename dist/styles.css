@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.all-btns {
+  width: 60px;
+  height: 50px;
+  border: none;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+.all-btns:active {
+  border: 1px solid black;
+}
+
+.calci-body {
+  max-height: 650px;
+  max-width: 450px;
+  background-color: rgb(242, 243, 243);
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 7.6px 5px;
+}
+
+.display-screen,
+.drop {
+  background-color: rgb(242, 243, 243);
+  outline: none;
+}
+
+.drop {
+  min-width: -webkit-fill-available;
+}
+
+.equals-btn,
+.all-btns:hover,
+.dropdown-btns:hover {
+  background-color: rgb(145, 193, 231);
+}
+
+.function-dropdown-content {
+  width: 120px;
+}
+
+.hidn-btns {
+  display: none;
+}
+
+.num-btns {
+  background-color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.supElement {
+  pointer-events: none;
+}
+
+img.trigo-symbol {
+  transform: scaleX(-1);
+}
