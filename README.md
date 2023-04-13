@@ -5,7 +5,7 @@
 - It offers additional features to Javascript including static types.
 - Typescript code basically compiles down to regular Javascript.
 - Typescript is more robust, can easily spot bugs and provides better readability.
-- Live demonstration: ![Scientific Calculator](https://typescript-practical.netlify.app/)
+- Live demonstration: [Scientific Calculator](https://typescript-practical.netlify.app/)
 
 ---
 
